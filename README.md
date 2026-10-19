@@ -8,7 +8,7 @@
 - **Problem ID**: PS09 (Adaptive Memory Matching Game)
 - **Candidate Name**: `Omjee Kumar`
 - **Roll Number**: `2311981364`
-- **Degree & Branch**: `<B.Tech Computer Science>`
+- **Degree & Branch**: `B.Tech CSE`
 - **Institution**: Chitkara University
 
 ---
@@ -94,19 +94,20 @@ http://localhost:5173/?seed=1
 
 ---
 
-## 7. Screenshots
+## 6. Screenshots
 
-*(Screenshots can be placed in `docs/screenshots/`)*
+### 1. Initial Ready State
+![Initial Game Board](Start.png)
 
-- **Initial Ready State**: ``
-- **Active Game with Matched Pairs**: `[ Placeholder: Gameplay in progress ]`
-- **Mismatch Resolution**: `[ Placeholder: Resolving state with 2 cards revealed ]`
-- **Victory Modal & Adaptation Reason**: `![alt text](image.png)`
-- **Hard Difficulty Board (4x6)**: `[ Placeholder: 24-card grid ]`
+### 2. Active Gameplay (Card Flipped)
+![Active Gameplay](Play.png)
+
+### 3. Victory Modal & Difficulty Adaptation
+![Victory Modal and Performance Adaptation](image.png)
 
 ---
 
-## 8. Repository Structure
+## 7. Repository Structure
 
 ```
 d:\Recalla
@@ -142,7 +143,7 @@ d:\Recalla
 
 ---
 
-## 9. Known Limitations
+## 8. Known Limitations
 
 - **Client Storage Only**: High scores and game history are persisted in browser `localStorage`. Scores are not shared across different devices or browsers.
 - **No Sound Effects**: Kept strictly silent to minimize complexity and dependencies.
