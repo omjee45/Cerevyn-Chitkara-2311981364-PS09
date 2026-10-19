@@ -1,0 +1,45 @@
+{
+  "_comment": "Generated using mulberry32(1) and Fisher-Yates shuffle with 8 emoji pairs on Easy level (16 cards).",
+  "seed": 1,
+  "level": "easy",
+  "cards": [
+    { "id": 0, "symbol": "🍒" },
+    { "id": 1, "symbol": "🍋" },
+    { "id": 2, "symbol": "🍎" },
+    { "id": 3, "symbol": "🥝" },
+    { "id": 4, "symbol": "🍒" },
+    { "id": 5, "symbol": "🍌" },
+    { "id": 6, "symbol": "🍉" },
+    { "id": 7, "symbol": "🥝" },
+    { "id": 8, "symbol": "🍉" },
+    { "id": 9, "symbol": "🍇" },
+    { "id": 10, "symbol": "🍌" },
+    { "id": 11, "symbol": "🍓" },
+    { "id": 12, "symbol": "🍋" },
+    { "id": 13, "symbol": "🍇" },
+    { "id": 14, "symbol": "🍎" },
+    { "id": 15, "symbol": "🍓" }
+  ],
+  "sessions": {
+    "perfect_play": {
+      "description": "8 consecutive matching pairs without any mismatches.",
+      "clicks": [0, 4, 1, 12, 2, 14, 3, 7, 5, 10, 6, 8, 9, 13, 11, 15],
+      "expected": {
+        "moves": 8,
+        "pairs": 8,
+        "status": "won"
+      }
+    },
+    "one_mismatch_then_win": {
+      "description": "First flip 0 (🍒) and 1 (🍋) mismatch and resolve, followed by all correct matches.",
+      "clicks": [0, 1],
+      "requiresResolve": true,
+      "subsequentClicks": [0, 4, 1, 12, 2, 14, 3, 7, 5, 10, 6, 8, 9, 13, 11, 15],
+      "expected": {
+        "moves": 9,
+        "pairs": 8,
+        "status": "won"
+      }
+    }
+  }
+}
